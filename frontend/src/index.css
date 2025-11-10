@@ -1,0 +1,84 @@
+:root {
+  --primary-color: #2c786c;
+  --background-color: #AF9164;
+  --text-color: #13070c;
+  --accent-color: #262A10;
+  --cta-color: #493657;
+  --card-bg: #AF9164;
+
+  --air-force-blue: #D8D4F2;
+  --antiflash-white: #AF9164;
+  --lion: #BF1363;
+  --english-violet: #0E79B2;
+  --licorice: #13070c;
+}
+
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.nav-link {
+  color: #ffffff !important;
+}
+
+:root {
+  --primary-color: #2c786c;
+  --background-color: #f0f3f5;
+  --text-color: #13070c;
+  --accent-color: #262A10;
+  --cta-color: #493657;
+  --card-bg: #AF9164;
+
+  --air-force-blue: #D8D4F2;
+  --antiflash-white: #AF9164;
+  --lion: #BF1363;
+  --english-violet: #0E79B2;
+  --licorice: #13070c;
+}
+
+/* .navbar {
+  background-color: var(--licorice) !important;
+} */
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+/* .navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+} */
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.btn-custom {
+  background-color: var(--air-force-blue);
+  color: #ffffff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  transition: 0.3s ease;
+  font-weight: 500;
+}
+
+.btn-custom:hover {
+  background-color: var(--english-violet);
+  color: #ffffff;
+}
+
+a[href="/login/user"]:hover,
+a[href="/login/owner"]:hover {
+  background-color: var(--english-violet);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* index.css or App.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
